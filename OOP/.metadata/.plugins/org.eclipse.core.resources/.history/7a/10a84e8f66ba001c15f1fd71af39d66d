@@ -1,0 +1,9 @@
+package interface_example;
+
+public class Car implements Drivable
+{
+	@Override
+	public void start() {
+		System.out.println("\nCar has started");
+	}
+}

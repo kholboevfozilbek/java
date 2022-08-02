@@ -1,0 +1,11 @@
+package interface_;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ByTwo t2 = new ByTwo();
+
+	}
+
+}

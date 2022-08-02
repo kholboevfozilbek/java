@@ -1,0 +1,21 @@
+package exercise1;
+
+public class Rectangle extends Figure
+{
+	private float m_width;
+	private float m_height;
+	
+	public Rectangle() {
+		
+	}
+	
+	@Override 
+	public float getArea() {
+		return m_width * m_height;
+	}
+	
+	@Override 
+	public float getPerimeter() {
+		return 2*m_width + 2*m_height;
+	}
+}

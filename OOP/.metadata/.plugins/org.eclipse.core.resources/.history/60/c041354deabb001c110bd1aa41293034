@@ -1,0 +1,16 @@
+package interface_;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ByTwo t2 = new ByTwo();
+		ByThree t3 = new ByThree()
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println(t2.getNext());
+		}
+
+	}
+
+}

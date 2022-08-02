@@ -1,0 +1,22 @@
+package exercise2;
+
+public abstract class Mammal 
+{
+	protected String m_name;
+	protected float m_weight;
+	protected float m_age;
+	
+	
+	public Mammal() {
+		
+	}
+	
+	public Mammal(String n, float w, float a) throws  NullPointerException, NegativeWeight{
+		if(n == null)
+			throw new NullPointerException("Name can not be null!");
+		if(w <= 0)
+			throw new NegativeWeight("Weight can not be 0!");
+	}
+	
+	public abstract void utterVoice();
+}

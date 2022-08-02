@@ -1,0 +1,19 @@
+
+package exercise1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FigureSet 
+{
+	private List<Figure> m_list = new ArrayList<>();
+	
+	
+	public FigureSet() {
+		
+	}
+	
+	public void addFigure(Figure o) {
+		m_list.add(o);
+	}
+}

@@ -1,0 +1,20 @@
+package exercise1;
+
+public class Circle extends Figure
+{
+	private float m_radius;
+	
+	public Circle() {
+		
+	}
+	
+	public Circle(float rad) {
+		if(rad <= 0 ) {
+			System.out.println("\nRADIUS CAN NOT BE 0!");
+		}
+		else
+		{
+			m_radius = rad;
+		}
+	}
+}

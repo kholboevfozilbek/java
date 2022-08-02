@@ -1,0 +1,27 @@
+package exercise2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Mammal arr[] = new Mammal[5]; 
+		
+		try {
+			arr[0] = new Cat("Yellow", "Beanny", 10, 2);
+		}
+		catch(NullPointerException e) {
+			System.out.println(e);
+			System.out.println("\nWHEN CREATING OBJECTS, PROVIDE ALL CORRECT FILEDS! ");
+		} 
+		catch (NegativeWeight e) {
+			System.out.println(e);
+			System.out.println("\nNONE OBJECTS WEIGHT CAN BE 0!");
+		} 
+		catch (NegativeAge e) {
+			System.out.println(e);
+			System.out.println("\nAge can not be negative !");
+		}
+		
+	}
+	
+}

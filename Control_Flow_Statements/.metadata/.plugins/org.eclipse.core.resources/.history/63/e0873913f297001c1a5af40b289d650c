@@ -1,0 +1,17 @@
+package while_loop;
+
+import java.util.Scanner;
+
+public class while_loop {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		int number=0;
+		
+		input.close();
+
+	}
+
+}

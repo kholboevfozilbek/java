@@ -1,0 +1,12 @@
+package interface_example;
+
+public interface Drivable
+{
+	
+	void turnLeft();
+	void turnRight();
+	void accelerate();
+	void reverse();
+	void start();
+	void stop();
+}

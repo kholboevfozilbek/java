@@ -1,0 +1,9 @@
+package exercise2;
+
+public class NegativeAge extends Exception
+{
+	
+	NegativeWeight(String what) {
+		super(what);
+	}
+}

@@ -1,0 +1,20 @@
+package exercise2;
+
+public class Whale extends Mammal
+{
+
+	public Whale() {
+		
+	}
+	
+	public Whale(String n, float w, float a) throws NullPointerException, NegativeWeight, NegativeAge {
+		super(n, w, a);
+	}
+	
+	@Override
+	public void utterVoice() {
+		System.out.println("\nPUUUUUUUU");
+	}
+
+	
+}

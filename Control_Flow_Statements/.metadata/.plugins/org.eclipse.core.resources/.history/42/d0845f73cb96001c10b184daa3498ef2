@@ -1,0 +1,13 @@
+package if_statement;
+
+public class if_statement {
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		char choice;
+		
+		System.out.print("Is it raining? [y/n]: ");
+		
+	}
+
+}

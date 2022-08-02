@@ -1,0 +1,16 @@
+package upcasting;
+
+public class Main {
+
+	public static void main(String[] args) {	
+		
+		Animal a = new Dog();
+		
+		animal(a);
+	}
+	
+	public static void animal(Animal a) {
+		a.sound();
+	}
+
+}

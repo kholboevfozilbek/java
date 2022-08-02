@@ -1,0 +1,32 @@
+package exercise1;
+
+public class Rectangle extends Figure
+{
+	private float m_width;
+	private float m_height;
+	
+	public Rectangle() {
+		
+	}
+	
+	public Rectangle(int w, int h) {
+		if(w <= 0 | h <= 0) {
+			System.out.println("\nNEITHER WIDTH NOR HEIGHT CAN BE <= 0 !");
+		}
+		else
+		{
+			m_width = w;
+			m_height= h;
+		}
+	}
+	
+	@Override 
+	public float getArea() {
+		return m_width * m_height;
+	}
+	
+	@Override 
+	public float getPerimeter() {
+		return 2*m_width + 2*m_height;
+	}
+}
